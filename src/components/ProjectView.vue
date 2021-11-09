@@ -7,10 +7,13 @@
         Project Title:
         {{ myJson[index].projectTitle }}
       </h1>
-      <img :src="myJson[index].image" />
+      <img :src="myJson[index].image" class="sitePrev" />
       <a :href="myJson[index].url"> {{ myJson[index].url }}</a>
-      <p>{{ myJson[index].purpose }}</p>
-      <p>{{ myJson[index].objective }}</p>
+      <p>Purpose: {{ myJson[index].purpose }}</p>
+      <p>Objective: {{ myJson[index].objective }}</p>
+      <p>Approach: {{ myJson[index].approach }}</p>
+      <p>Project Duration: {{ myJson[index].projectDuration }}</p>
+      <p>Fun Fact:{{ myJson[index].funFact }}</p>
     </div>
   </div>
 </template>
@@ -45,3 +48,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.sitePrev {
+  width: 500px;
+}
+</style>

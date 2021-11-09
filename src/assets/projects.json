@@ -2,7 +2,7 @@
   {
     "projectTitle": "Personal Website",
     "url": "https://hopeworks-personal.netlify.app/",
-    "image": "./src/assets/images/personalSite.jpg",
+    "image": "https://ealr-hopeworks-portfolio.netlify.app/media/carousel/personalSite.jpg",
     "purpose": "This project started as a way to showcase my skills in HTML, CSS, and JavaScript. It’s the first website I put together after acquiring basic knowledge.",
     "objective": "The site introduces the visitor to the world of First Person View drones and provides a broad overview of the hobby.",
     "approach": "I created the site using VS Code with Git as my preferred version control system from scratch. I host the source code on Github and deploy the site using Netlify.",
